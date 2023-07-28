@@ -30,6 +30,20 @@ body{
     background: rgb(248, 248, 248);
     font-size: 1vw;
 }
+/* added animation to searchBar */
+ #searchBar {
+      transition: transform 0.5s ease-in-out;
+    }
+    .slide-up {
+      transform: translateY(-100%);
+    }
+
+ #searchBar {
+      transition: transform 0.5s ease-in-out;
+    }
+    .slide-up {
+      transform: translateY(-60%);
+    }
 .logo svg{
     width: 13vw;
     height: 9vh;
